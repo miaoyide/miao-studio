@@ -1,0 +1,60 @@
+.img-responsive{
+  max-width: 100%;
+}
+.box{
+  background-image: url(../images/pic01.jpg);
+  background-size: cover;
+  background-position: center 15%;
+}
+.box:nth-child(2){
+  background-image: url(../images/pic02.jpg);
+}
+.box:nth-child(3){
+  background-image: url(../images/pic03.jpg);
+}
+.box:nth-child(4){
+  background-image: url(../images/pic04.jpg);
+}
+.logo{
+  position: fixed;
+  width: 150px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -75px;
+  color: white;
+  background: rgba(79, 167, 125, 0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.logo h1{
+  font-family: SimSun;
+  font-weight: bold;
+}
+.logo a, .logo a:link{
+  text-decoration: none;
+  color: black;
+}
+.logo p{
+  font-family: verdana;
+  font-size: 12px;
+}
+/*@media (min-width: 992px) {
+  .box{
+    float: left;
+    width: 25%;
+    background-position: center 0;
+  }
+  .logo{
+    position: fixed;
+    top: auto;
+    bottom: 5%;
+    left: 87.5%;
+    margin-top: 0;
+    background-color: transparent;
+    color: black;
+    width: 150px;
+  }
+}*/
